@@ -1,0 +1,40 @@
+body
+{
+  margin: 0;
+  display: flex;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 700;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(to right top,lightblue,white,lightblue);
+}
+.container
+{
+  background-color: rgba(255, 255, 255,.3);
+  padding: 20px;
+  box-shadow: 0px 3px 5px rgba(67, 66, 66, 0.3);
+  border-radius: 10px;
+  text-align: center;
+  width: 60%;
+  max-width: 500px;
+}
+.js-input
+{
+  padding: 15px 70px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px 5px rgba(67, 66, 66, 0.5);
+}
+.audio
+{
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px 5px rgba(67, 66, 66, 0.5);
+  border-radius: 50px;
+  cursor: pointer;
+}
+.result-container
+{
+  display:none;
+}
